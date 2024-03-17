@@ -10,7 +10,8 @@ public class Array1 {
         // new int[5] 로 배열을 생성하면 배열의 크기만큼 메모리를 확보한다. (4byte * 5 = 20byte)
 
         //변수 값 대입
-        students[0] = 90; students[1] = 80;
+        students[0] = 90;
+        students[1] = 80;
         students[2] = 70;
         students[3] = 60;
         students[4] = 50;
