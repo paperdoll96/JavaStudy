@@ -16,7 +16,8 @@ public class ArrayEx5 {
 
 //        System.out.println(numbers.length);
         // 이런 방식으로 되나? 의문점이 들어서 콘솔에 찍어보았다. 되는거같은데?!
-
+        //
+        // 하지만 구글에서 찾아보니 배열의 크기를 동적으로 지정 할 수는 있지만, -1 혹은 숫자가 아닌 문자의 입력에 제한이 없어서 NegativeArraySizeException, 문자는 InputMismatchException이 발생한다!
         /*
             하지만 내 풀이와 달리 답에서는 좀더 간략했다.
             먼저 입력받을 숫자 개수를 입력할떄
