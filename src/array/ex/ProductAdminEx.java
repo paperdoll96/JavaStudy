@@ -47,7 +47,7 @@ public class ProductAdminEx {
                     break;
                 case 3:
                     System.out.println("프로그램을 종료합니다.");
-                    System.exit(0); // 이 메소드 없이 break만 쓰게 된다면 switch문만 빠져나가고 무한루프로 설정해둔 while문은 빠져나가지 못한다.
+                    System.exit(0); // 이 메소드 없이 break만 쓰게 된다면 switch문만 빠져나가고 무한루프로 설정해둔 while문은 빠져나가지 못한다!
                                             // 그래서 구글링해본 결과 이 메소드를 알게되었다.
                                             // System.exit(0) 을 사용하면 프로그램이 즉시 종료된다
                                             // '0' 은 프로그램이 정상종료되었음을 나타내는 상태코드이다!
